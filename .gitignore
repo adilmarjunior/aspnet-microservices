@@ -1,0 +1,4 @@
+/bin/*
+/obj/*
+src/Services/Catalog/Catalog.API/bin
+src/Services/Catalog/Catalog.API/obj
