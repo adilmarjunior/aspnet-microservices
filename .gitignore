@@ -5,3 +5,5 @@ src/Services/Catalog/Catalog.API/obj
 .vscode
 src/Services/Basket/Basket.API/bin
 src/Services/Basket/Basket.API/obj
+src/Services/Discount/Discount.API/obj
+src/Services/Discount/Discount.API/bin
