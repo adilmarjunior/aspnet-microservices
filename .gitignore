@@ -7,3 +7,5 @@ src/Services/Basket/Basket.API/bin
 src/Services/Basket/Basket.API/obj
 src/Services/Discount/Discount.API/obj
 src/Services/Discount/Discount.API/bin
+src/Services/Discount/Discount.gRPC/obj
+src/Services/Discount/Discount.gRPC/bin
