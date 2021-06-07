@@ -9,3 +9,12 @@ src/Services/Discount/Discount.API/obj
 src/Services/Discount/Discount.API/bin
 src/Services/Discount/Discount.gRPC/obj
 src/Services/Discount/Discount.gRPC/bin
+src/Services/Ordering/Ordering.API/obj
+src/Services/Ordering/Ordering.API/bin
+src/Services/Ordering/Ordering.Domain/obj
+src/Services/Ordering/Ordering.Application/bin
+src/Services/Ordering/Ordering.Application/obj
+src/Services/Ordering/Ordering.Domain/bin
+src/Services/Ordering/Ordering.Infraestructure/obj
+src/Services/Ordering/Ordering.Infraestructure/bin
+src/Services/Ordering/Ordering.Infraestructure/bin/Debug/net5.0
