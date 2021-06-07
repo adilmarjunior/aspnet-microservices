@@ -33,16 +33,16 @@ namespace Discount.API.Extensions
           command.CommandText = "DROP TABLE IF EXISTS Coupon";
           command.ExecuteNonQuery();
 
-          command.CommandText = @"CREATE TABLE Counpon(Id SERIAL PRIMARY KEY,
+          command.CommandText = @"CREATE TABLE Coupon(Id SERIAL PRIMARY KEY,
                                                        ProductName VARCHAR(24) NOT NULL,
                                                        Description TEXT,
                                                        Amount INT ) ";
           command.ExecuteNonQuery();
 
-          command.CommandText = "INSERT INTO Counpon(ProductName, Description, Amount) VALUES ('IPhone X', 'Discount iphone', 150)";
+          command.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES ('IPhone X', 'Discount iphone', 150)";
           command.ExecuteNonQuery();
 
-          command.CommandText = "INSERT INTO Counpon(ProductName, Description, Amount) VALUES ('Samsung 10', 'Discount samsung', 100)";
+          command.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES ('Samsung 10', 'Discount samsung', 100)";
           command.ExecuteNonQuery();
 
           logger.LogInformation("Migrated postgresql database");
