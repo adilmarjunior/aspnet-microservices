@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
 {
-  public class GetOrdersListQuery : IRequest<List<OrdersVM>>
+  public class GetOrdersListQuery : IRequest<List<OrdersDTO>>
   {
     public string UserName { get; set; }
 
