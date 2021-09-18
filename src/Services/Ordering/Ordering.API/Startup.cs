@@ -28,6 +28,7 @@ namespace Ordering.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationServices();
+            services.AddInfraestructureServices();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
